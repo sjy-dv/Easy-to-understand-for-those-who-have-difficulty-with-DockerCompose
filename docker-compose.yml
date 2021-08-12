@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  node1:
+    build: "./node1"
+    ports:
+      - "3000:3000"
+  node2:
+    build: "./node2"
+    ports:
+      - "3001:3001"
